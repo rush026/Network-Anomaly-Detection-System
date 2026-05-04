@@ -1,0 +1,28 @@
+# Environments
+api_env/
+ml_env/
+.venv/
+env/
+venv/
+*.pyc
+__pycache__/
+
+# Data (Avoid pushing large datasets)
+data/*.csv
+data/*.json
+!data/sample_input.json
+
+# Logs & PIDs
+logs/*.log
+.api.pid
+.dash.pid
+attack_log.txt
+
+# Models (Optional: usually too big for GitHub, but small ones are fine)
+# models/*.pkl
+# models/*.h5
+# models/*.json
+
+# OS files
+.DS_Store
+*.swp

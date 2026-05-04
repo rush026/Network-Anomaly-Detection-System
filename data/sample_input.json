@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "Flow_Duration": 0.1,
+      "Total_Fwd_Packets": 10,
+      "Total_Backward_Packets": 5,
+      "Total_Length_of_Fwd_Packets": 1500
+    },
+    {
+      "Flow_Duration": 0.3,
+      "Total_Fwd_Packets": 30,
+      "Total_Backward_Packets": 12,
+      "Total_Length_of_Fwd_Packets": 4500
+    },
+    {
+      "Flow_Duration": 0.05,
+      "Total_Fwd_Packets": 5,
+      "Total_Backward_Packets": 2,
+      "Total_Length_of_Fwd_Packets": 800
+    }
+  ]
+}
