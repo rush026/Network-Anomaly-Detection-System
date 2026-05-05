@@ -1,11 +1,14 @@
+# Consolidated Requirements for Public Deployment (Railway/Linux)
 fastapi
 uvicorn
 pydantic
-numpy
-pandas
+numpy==1.23.5
+pandas==1.5.3
 scikit-learn
-xgboost
+xgboost==1.7.6
 joblib
 python-dotenv
 streamlit
 requests
+psycopg2-binary
+tensorflow-cpu==2.13.0
