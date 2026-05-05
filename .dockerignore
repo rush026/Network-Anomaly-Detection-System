@@ -1,0 +1,15 @@
+api_env/
+ml_env/
+.venv/
+__pycache__/
+*.pyc
+data/*.csv
+data/*.json
+!data/sample_input.json
+logs/
+.git/
+.DS_Store
+Dockerfile
+docker-compose.yml
+requirements-api.txt
+requirements-ml.txt

@@ -1,0 +1,29 @@
+npm warn exec The following package was not found and will be installed: cloudflared@0.7.1
+2026-05-05T19:56:42Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee, are subject to the Cloudflare Online Services Terms of Use (https://www.cloudflare.com/website-terms/), and Cloudflare reserves the right to investigate your use of Tunnels for violations of such terms. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
+2026-05-05T19:56:42Z INF Requesting new quick Tunnel on trycloudflare.com...
+2026-05-05T19:56:48Z INF +--------------------------------------------------------------------------------------------+
+2026-05-05T19:56:48Z INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
+2026-05-05T19:56:48Z INF |  https://richards-cooked-munich-testimony.trycloudflare.com                                |
+2026-05-05T19:56:48Z INF +--------------------------------------------------------------------------------------------+
+2026-05-05T19:56:48Z INF Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp /etc/cloudflared /usr/local/etc/cloudflared]
+2026-05-05T19:56:48Z INF Version 2026.3.0 (Checksum 633cee0fd41fd2020e17498beecc54811bf4fc99f891c080dc9343eb0f449c60)
+2026-05-05T19:56:48Z INF GOOS: darwin, GOVersion: go1.26.0, GoArch: arm64
+2026-05-05T19:56:48Z INF Settings: map[ha-connections:1 protocol:quic url:http://localhost:8000]
+2026-05-05T19:56:48Z INF Autoupdate frequency is set autoupdateFreq=86400000
+2026-05-05T19:56:48Z INF Generated Connector ID: b312c032-f943-45f2-a85a-345379a8e2e6
+2026-05-05T19:56:48Z INF Initial protocol quic
+2026-05-05T19:56:48Z INF ICMP proxy will use 10.195.2.244 as source for IPv4
+2026-05-05T19:56:48Z INF ICMP proxy will use fe80::ce3:2fb3:7241:e4cd in zone en0 as source for IPv6
+2026-05-05T19:56:48Z INF Created ICMP proxy listening on 10.195.2.244:0
+2026-05-05T19:56:48Z INF ICMP proxy will use 10.195.2.244 as source for IPv4
+2026-05-05T19:56:48Z INF ICMP proxy will use fe80::ce3:2fb3:7241:e4cd in zone en0 as source for IPv6
+2026-05-05T19:56:48Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-05-05T19:56:48Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.13
+2026-05-05T19:56:49Z INF Registered tunnel connection connIndex=0 connection=40497dea-553c-4b3b-a4fd-361e6ae72606 event=0 ip=198.41.200.13 location=del04 protocol=quic
+2026-05-05T20:21:08Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.13
+2026-05-05T20:21:08Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.13
+2026-05-05T20:21:08Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.13
+2026-05-05T20:21:08Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.13
+2026-05-05T20:21:08Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.13
+2026-05-05T20:21:09Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.13
+2026-05-05T20:21:10Z INF Registered tunnel connection connIndex=0 connection=1f61a76a-1721-49c1-8b0c-458be9aa0f32 event=0 ip=198.41.200.13 location=del04 protocol=quic

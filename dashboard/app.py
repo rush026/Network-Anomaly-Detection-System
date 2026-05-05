@@ -10,6 +10,9 @@ from backend.database import get_recent_logs
 
 st.title("Network Anomaly Detection System")
 
+# API URL Configuration
+API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
+
 # Input fields
 flow_duration = st.number_input("Flow Duration", value=1000)
 fwd_packets = st.number_input("Total Fwd Packets", value=10)
@@ -21,7 +24,7 @@ if st.button("Predict"):
 
     try:
         response = requests.post(
-            "http://127.0.0.1:8000/predict",
+            f"{API_URL}/predict",
             json={
                 "Flow_Duration": flow_duration,
                 "Total_Fwd_Packets": fwd_packets,
